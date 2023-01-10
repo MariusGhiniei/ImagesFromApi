@@ -13,6 +13,8 @@
 		299209F5296B8ED400772CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299209F3296B8ED400772CA9 /* Main.storyboard */; };
 		299209F7296B8ED500772CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299209F6296B8ED500772CA9 /* Assets.xcassets */; };
 		299209FA296B8ED500772CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299209F8296B8ED500772CA9 /* LaunchScreen.storyboard */; };
+		29920A02296B917900772CA9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29920A01296B917900772CA9 /* Data.swift */; };
+		29920A04296B9B0300772CA9 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29920A03296B9B0300772CA9 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		299209F6296B8ED500772CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299209F9296B8ED500772CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		299209FB296B8ED500772CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29920A01296B917900772CA9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		29920A03296B9B0300772CA9 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		299209EC296B8ED400772CA9 /* ImagesFromApi */ = {
 			isa = PBXGroup;
 			children = (
+				29920A03296B9B0300772CA9 /* ImageCollectionViewCell.swift */,
 				299209ED296B8ED400772CA9 /* AppDelegate.swift */,
 				299209EF296B8ED400772CA9 /* SceneDelegate.swift */,
 				299209F1296B8ED400772CA9 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				299209F6296B8ED500772CA9 /* Assets.xcassets */,
 				299209F8296B8ED500772CA9 /* LaunchScreen.storyboard */,
 				299209FB296B8ED500772CA9 /* Info.plist */,
+				29920A01296B917900772CA9 /* Data.swift */,
 			);
 			path = ImagesFromApi;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				299209F2296B8ED400772CA9 /* ViewController.swift in Sources */,
+				29920A04296B9B0300772CA9 /* ImageCollectionViewCell.swift in Sources */,
 				299209EE296B8ED400772CA9 /* AppDelegate.swift in Sources */,
 				299209F0296B8ED400772CA9 /* SceneDelegate.swift in Sources */,
+				29920A02296B917900772CA9 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
